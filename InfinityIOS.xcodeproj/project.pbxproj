@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D927418B0E3C7E0D9F9ADE9 /* Pods_InfinityIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B22956160B317375506419 /* Pods_InfinityIOS.framework */; };
+		6E156FCE1E8CE16500045EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E156FCD1E8CE16500045EC4 /* GoogleService-Info.plist */; };
+		6E156FD01E8CF62700045EC4 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E156FCF1E8CF62700045EC4 /* SplashController.swift */; };
+		6E156FD41E8D27A200045EC4 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E156FD31E8D27A200045EC4 /* SignupController.swift */; };
+		6E2122551EA4C1E600E40EEC /* MatchesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2122541EA4C1E600E40EEC /* MatchesController.swift */; };
+		6E4EE34A1E9B53160052B97E /* SliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EE3491E9B53160052B97E /* SliderController.swift */; };
+		6E4EE34C1E9CAC270052B97E /* TinderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EE34B1E9CAC270052B97E /* TinderController.swift */; };
+		6E4EE34E1E9CACA40052B97E /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EE34D1E9CACA40052B97E /* BackgroundKolodaAnimator.swift */; };
+		6E4EE3521E9CADED0052B97E /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EE3511E9CADED0052B97E /* CustomKolodaView.swift */; };
+		6E4EE3541E9CAE530052B97E /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EE3531E9CAE530052B97E /* CustomOverlayView.swift */; };
+		6E6AA15C1E8CC5B700690C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6AA15B1E8CC5B700690C43 /* AppDelegate.swift */; };
+		6E6AA1611E8CC5B700690C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6AA15F1E8CC5B700690C43 /* Main.storyboard */; };
+		6E6AA1631E8CC5B800690C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6AA1621E8CC5B800690C43 /* Assets.xcassets */; };
+		6E6AA1661E8CC5B800690C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6AA1641E8CC5B800690C43 /* LaunchScreen.storyboard */; };
+		6E7813421E9F576800837CF7 /* TinderProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7813411E9F576800837CF7 /* TinderProfileController.swift */; };
+		6E7E02DD1E93675100492875 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E02DC1E93675100492875 /* Constants.swift */; };
+		6E7E02E11E93879B00492875 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E02E01E93879B00492875 /* FirebaseService.swift */; };
+		6E7E02E31E93912900492875 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E02E21E93912900492875 /* HttpService.swift */; };
+		6E7EC4291E92093800EED4DA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EC4281E92093800EED4DA /* LoginController.swift */; };
+		6E7EC42F1E927C7800EED4DA /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7EC42E1E927C7800EED4DA /* OverlayView.xib */; };
+		6EBCA3981E8E7D4800DEC3F1 /* RequestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3971E8E7D4800DEC3F1 /* RequestsController.swift */; };
+		6EEF806C1E9FA3B00029E007 /* TinderFriendDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF806B1E9FA3B00029E007 /* TinderFriendDetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15B22956160B317375506419 /* Pods_InfinityIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinityIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E156FCD1E8CE16500045EC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E156FCF1E8CF62700045EC4 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		6E156FD31E8D27A200045EC4 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		6E2122541EA4C1E600E40EEC /* MatchesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesController.swift; sourceTree = "<group>"; };
+		6E4EE3491E9B53160052B97E /* SliderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderController.swift; sourceTree = "<group>"; };
+		6E4EE34B1E9CAC270052B97E /* TinderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderController.swift; sourceTree = "<group>"; };
+		6E4EE34D1E9CACA40052B97E /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
+		6E4EE3511E9CADED0052B97E /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		6E4EE3531E9CAE530052B97E /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		6E6AA1581E8CC5B700690C43 /* InfinityIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6AA15B1E8CC5B700690C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E6AA1601E8CC5B700690C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E6AA1621E8CC5B800690C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6AA1651E8CC5B800690C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E6AA1671E8CC5B800690C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7813411E9F576800837CF7 /* TinderProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderProfileController.swift; sourceTree = "<group>"; };
+		6E7E02DC1E93675100492875 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6E7E02E01E93879B00492875 /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		6E7E02E21E93912900492875 /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		6E7EC4281E92093800EED4DA /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		6E7EC42E1E927C7800EED4DA /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		6EBCA3971E8E7D4800DEC3F1 /* RequestsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsController.swift; sourceTree = "<group>"; };
+		6EEF806B1E9FA3B00029E007 /* TinderFriendDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderFriendDetailController.swift; sourceTree = "<group>"; };
+		D832121015F731F9855D809E /* Pods-InfinityIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F5558857047D89A56E10B2F3 /* Pods-InfinityIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6AA1551E8CC5B700690C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D927418B0E3C7E0D9F9ADE9 /* Pods_InfinityIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E6AA14F1E8CC5B700690C43 = {
+			isa = PBXGroup;
+			children = (
+				6E6AA15A1E8CC5B700690C43 /* InfinityIOS */,
+				6E6AA1591E8CC5B700690C43 /* Products */,
+				B8F0C23102F6528F0F7D7EE3 /* Pods */,
+				94B5349C7D0DB3340F9B9405 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6AA1591E8CC5B700690C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6AA1581E8CC5B700690C43 /* InfinityIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E6AA15A1E8CC5B700690C43 /* InfinityIOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E6AA15B1E8CC5B700690C43 /* AppDelegate.swift */,
+				6E6AA15F1E8CC5B700690C43 /* Main.storyboard */,
+				6E6AA1621E8CC5B800690C43 /* Assets.xcassets */,
+				6E6AA1641E8CC5B800690C43 /* LaunchScreen.storyboard */,
+				6E6AA1671E8CC5B800690C43 /* Info.plist */,
+				6E156FCD1E8CE16500045EC4 /* GoogleService-Info.plist */,
+				6E156FCF1E8CF62700045EC4 /* SplashController.swift */,
+				6E156FD31E8D27A200045EC4 /* SignupController.swift */,
+				6EBCA3971E8E7D4800DEC3F1 /* RequestsController.swift */,
+				6E7EC4281E92093800EED4DA /* LoginController.swift */,
+				6E7EC42E1E927C7800EED4DA /* OverlayView.xib */,
+				6E7E02DC1E93675100492875 /* Constants.swift */,
+				6E7E02E01E93879B00492875 /* FirebaseService.swift */,
+				6E7E02E21E93912900492875 /* HttpService.swift */,
+				6E4EE3491E9B53160052B97E /* SliderController.swift */,
+				6E4EE34B1E9CAC270052B97E /* TinderController.swift */,
+				6E4EE34D1E9CACA40052B97E /* BackgroundKolodaAnimator.swift */,
+				6E4EE3511E9CADED0052B97E /* CustomKolodaView.swift */,
+				6E4EE3531E9CAE530052B97E /* CustomOverlayView.swift */,
+				6E7813411E9F576800837CF7 /* TinderProfileController.swift */,
+				6EEF806B1E9FA3B00029E007 /* TinderFriendDetailController.swift */,
+				6E2122541EA4C1E600E40EEC /* MatchesController.swift */,
+			);
+			path = InfinityIOS;
+			sourceTree = "<group>";
+		};
+		94B5349C7D0DB3340F9B9405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15B22956160B317375506419 /* Pods_InfinityIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8F0C23102F6528F0F7D7EE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D832121015F731F9855D809E /* Pods-InfinityIOS.debug.xcconfig */,
+				F5558857047D89A56E10B2F3 /* Pods-InfinityIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6AA1571E8CC5B700690C43 /* InfinityIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6AA16A1E8CC5B800690C43 /* Build configuration list for PBXNativeTarget "InfinityIOS" */;
+			buildPhases = (
+				F9CB489F3496D2B19F2AA900 /* [CP] Check Pods Manifest.lock */,
+				6E6AA1541E8CC5B700690C43 /* Sources */,
+				6E6AA1551E8CC5B700690C43 /* Frameworks */,
+				6E6AA1561E8CC5B700690C43 /* Resources */,
+				07A9B51D5CEBD7E7E934A82F /* [CP] Embed Pods Frameworks */,
+				053D449459F4233B2CC8A8A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinityIOS;
+			productName = InfinityIOS;
+			productReference = 6E6AA1581E8CC5B700690C43 /* InfinityIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6AA1501E8CC5B700690C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Technolabs;
+				TargetAttributes = {
+					6E6AA1571E8CC5B700690C43 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6E6AA1531E8CC5B700690C43 /* Build configuration list for PBXProject "InfinityIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6AA14F1E8CC5B700690C43;
+			productRefGroup = 6E6AA1591E8CC5B700690C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6AA1571E8CC5B700690C43 /* InfinityIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6AA1561E8CC5B700690C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6AA1661E8CC5B800690C43 /* LaunchScreen.storyboard in Resources */,
+				6E156FCE1E8CE16500045EC4 /* GoogleService-Info.plist in Resources */,
+				6E7EC42F1E927C7800EED4DA /* OverlayView.xib in Resources */,
+				6E6AA1631E8CC5B800690C43 /* Assets.xcassets in Resources */,
+				6E6AA1611E8CC5B700690C43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		053D449459F4233B2CC8A8A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07A9B51D5CEBD7E7E934A82F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9CB489F3496D2B19F2AA900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6AA1541E8CC5B700690C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEF806C1E9FA3B00029E007 /* TinderFriendDetailController.swift in Sources */,
+				6E7E02E11E93879B00492875 /* FirebaseService.swift in Sources */,
+				6E4EE3521E9CADED0052B97E /* CustomKolodaView.swift in Sources */,
+				6E4EE34A1E9B53160052B97E /* SliderController.swift in Sources */,
+				6E7EC4291E92093800EED4DA /* LoginController.swift in Sources */,
+				6E7E02E31E93912900492875 /* HttpService.swift in Sources */,
+				6E6AA15C1E8CC5B700690C43 /* AppDelegate.swift in Sources */,
+				6E4EE34E1E9CACA40052B97E /* BackgroundKolodaAnimator.swift in Sources */,
+				6E4EE3541E9CAE530052B97E /* CustomOverlayView.swift in Sources */,
+				6E156FD41E8D27A200045EC4 /* SignupController.swift in Sources */,
+				6E4EE34C1E9CAC270052B97E /* TinderController.swift in Sources */,
+				6E2122551EA4C1E600E40EEC /* MatchesController.swift in Sources */,
+				6E156FD01E8CF62700045EC4 /* SplashController.swift in Sources */,
+				6EBCA3981E8E7D4800DEC3F1 /* RequestsController.swift in Sources */,
+				6E7E02DD1E93675100492875 /* Constants.swift in Sources */,
+				6E7813421E9F576800837CF7 /* TinderProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E6AA15F1E8CC5B700690C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6AA1601E8CC5B700690C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E6AA1641E8CC5B800690C43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6AA1651E8CC5B800690C43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E6AA1681E8CC5B800690C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6AA1691E8CC5B800690C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6AA16B1E8CC5B800690C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D832121015F731F9855D809E /* Pods-InfinityIOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = InfinityIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolabs.infinityios.InfinityIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E6AA16C1E8CC5B800690C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5558857047D89A56E10B2F3 /* Pods-InfinityIOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = InfinityIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolabs.infinityios.InfinityIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6AA1531E8CC5B700690C43 /* Build configuration list for PBXProject "InfinityIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6AA1681E8CC5B800690C43 /* Debug */,
+				6E6AA1691E8CC5B800690C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6AA16A1E8CC5B800690C43 /* Build configuration list for PBXNativeTarget "InfinityIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6AA16B1E8CC5B800690C43 /* Debug */,
+				6E6AA16C1E8CC5B800690C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E6AA1501E8CC5B700690C43 /* Project object */;
+}
