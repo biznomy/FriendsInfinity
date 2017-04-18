@@ -7,4 +7,7 @@
   1. Firebase Authentication Used.
   2. User create own account and login.
   3. Search random friends like tinder.
-
+  4. send friend request to any one from suggestion list.
+  5. user can also received the friend request.
+  
+  
