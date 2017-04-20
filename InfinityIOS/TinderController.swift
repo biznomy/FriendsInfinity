@@ -73,9 +73,10 @@ class TinderController: UIViewController {
             self.kolodaView?.swipe(.right);
             let id = self.suggestionsList[crntIndx]["_id"];
             httpService.sendFriendReq(id:id as! String){ (result,status:Bool) -> () in
-                self.displayAlert(msg:"Your Friend Request was not sent because the Request limit was reached.")
                 if status == false{
                     self.limitOver = true;
+                    self.kolodaView?.swipe(.left)
+                    self.displayAlert(msg:"Your Friend Request was not sent because the Request limit was reached.")
                 }
             }
         }else{
@@ -86,7 +87,7 @@ class TinderController: UIViewController {
     
     func displayAlert(msg:String){
       let alert = UIAlertController(title: "Information ", message:msg , preferredStyle: .alert)
-      let CancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+      let CancelAction = UIAlertAction(title: "Ok", style: .default)
        alert.addAction(CancelAction)
       self.present(alert, animated: true, completion: nil)
     }
@@ -156,7 +157,7 @@ extension TinderController: KolodaViewDataSource {
             if let data = NSData(contentsOf: NSURL(string: user["photoURL"] as! String)! as URL) {
                 cover.image = UIImage(data: data as Data)!
             }else{
-                cover.image = UIImage(named: "cover_2")
+                cover.image = UIImage(named: "default")
             }
             view.addSubview(cover)
             

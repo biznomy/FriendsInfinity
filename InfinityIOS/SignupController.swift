@@ -9,12 +9,10 @@
 import UIKit
 import Firebase
 import SwiftLoader
-import Alamofire
+import  Alamofire
 
 
 class SignupController: UIViewController {
-
-    var fixedURL : String = "http://138.197.217.75:3100/fcm/"
 
     @IBOutlet weak var name: UITextField!
     
@@ -22,6 +20,7 @@ class SignupController: UIViewController {
     
     @IBOutlet weak var password: UITextField!
     
+    let httpService = HttpService();
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,21 +39,45 @@ class SignupController: UIViewController {
         self.name.resignFirstResponder()
     }
     
+    func displayAlert(msg:String){
+        let alert = UIAlertController(title: "Information ", message:msg , preferredStyle: .alert)
+        let CancelAction = UIAlertAction(title: "Ok", style: .default)
+        alert.addAction(CancelAction)
+        self.present(alert, animated: true, completion: nil)
+    }
     
     @IBAction func signup(_ sender: Any) {
-        SwiftLoader.show(title: "signup ...", animated: true);
+        SwiftLoader.show(title: "", animated: true);
         let e = self.email.text!,p = self.password.text!,name = self.name.text!;
         let jsonObject = [
             "displayName":name,
             "email": e,
             "password": p
         ]
-        
-        let urlstring = fixedURL + "signup";
-        
-        Alamofire.request(urlstring,method:.post, parameters: jsonObject, encoding: JSONEncoding.default).responseJSON { response in
-            print(response);
+        let u = Constants.Http.Domain + "fcm/signup";
+        Alamofire.request(u,method:.post, parameters: jsonObject, encoding: JSONEncoding.default).responseJSON { response in
+            if let error = response.result.error {
+                SwiftLoader.hide();
+                print(error)
+            } else {
+                if let JSON = response.result.value as? NSDictionary{
+                    SwiftLoader.hide();
+                    if((JSON["status"]) != nil){
+                        let result = (JSON.object(forKey:"result") as? NSDictionary);
+                        self.displayAlert(msg: result?["message"] as! String);
+                    }else{
+                        self.displayAlert(msg:"");
+                    }
+                    
+                }
+            }
         }
+        
+//        httpService.signup(data:jsonObject as NSDictionary){(result,status:Bool) -> () in
+//            let msg = result["message"] as? String;
+//            self.displayAlert(msg:msg);
+//        }
+        
     }
     
     

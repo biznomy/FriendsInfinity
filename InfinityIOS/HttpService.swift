@@ -6,7 +6,6 @@
 //  Copyright © 2017 Technolabs. All rights reserved.
 //
 
-import Firebase
 import Alamofire
 
 class HttpService{
@@ -22,6 +21,13 @@ class HttpService{
             completion(status);
         }
     }
+    
+//    func signup(data:NSDictionary,completion :@escaping (_ friends:NSDictionary,_ status:Bool) -> ()){
+//        let u = "fcm/signup";
+//        self._postData(url: u,jsonObject:data) { (data,status) in
+//           completion(data,status)
+//        }
+//    }
     
     
     func getFriends(completion :@escaping (_ friends:Array<AnyObject>) -> ()){
@@ -109,4 +115,23 @@ class HttpService{
         }
     }
     
+//    func _postData(url:String,jsonObject:NSDictionary,completion :@escaping (_ user:NSDictionary,_ status:Bool) -> ()){
+//        let u = Constants.Http.Domain + url;
+//        Alamofire.request(u,method:.post, parameters: jsonObject, encoding: JSONEncoding.default).responseJSON { response in
+//            if let error = response.result.error {
+//                print(error)
+//            } else {
+//                if let JSON = response.result.value as? NSDictionary{
+//                    if((JSON["status"]) != nil){
+//                        let status = (JSON.object(forKey:"status") as? NSNumber)?.boolValue
+//                        completion(JSON,status!)
+//                    }else{
+//                        completion(JSON,true)
+//                    }
+//                    
+//                }
+//            }
+//        }
+//       
+//    }
 }

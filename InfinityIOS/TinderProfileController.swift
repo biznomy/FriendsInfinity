@@ -96,6 +96,13 @@ class TinderProfileController: UIViewController,UIImagePickerControllerDelegate 
        
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "logout" {
+            print("logout");
+            FirebaseService.logout();
+        }
+    }
+    
     
     func getProfile(){
         httpService.getProfile(id:"me"){ (user,status) -> () in

@@ -22,18 +22,13 @@ class MatchesController: UIViewController , UITableViewDataSource, UITableViewDe
     
     @IBOutlet weak var friendView: UITableView!
     
-    var myFriends = Array<AnyObject>()
+    var myFriends = Array<AnyObject>(),selectedRow:Int = 0;
     var deletePlanetIndexPath: NSIndexPath? = nil
     
     let httpService = HttpService();
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        httpService.genToken(){ (status) -> () in
-            if(status){
-                self.getFriends();
-            }
-        };
     }
     
     
@@ -41,6 +36,11 @@ class MatchesController: UIViewController , UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         friendView.delegate = self
         friendView.dataSource = self
+        httpService.genToken(){ (status) -> () in
+            if(status){
+                self.getFriends();
+            }
+        };
     }
     
     override func didReceiveMemoryWarning() {
@@ -101,13 +101,21 @@ class MatchesController: UIViewController , UITableViewDataSource, UITableViewDe
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "friendDetailController" {
+            let tinderFriend = segue.destination as! TinderFriendDetailController
+            let user = self.myFriends[selectedRow];
+            tinderFriend.userName = user["name"] as! String;
+            tinderFriend.profilePic = user["photoURL"] as! String;
+            tinderFriend.userEmail = user["email"] as! String;
+            
+        }
+    }
+
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //        let row = indexPath.row
-        //        let studentDetailController = self.storyboard?.instantiateViewController(withIdentifier: "StudentDetailController") as! StudentDetailController
-        //        let student = self.myFriends[row] as! [String : AnyObject]
-        //        studentDetailController.student = student["_id"] as! String
-        //        self.navigationController?.pushViewController(studentDetailController, animated: true)
+                self.selectedRow = indexPath.row
+                self.performSegue(withIdentifier: "friendDetailController", sender: nil)
     }
     
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]?

@@ -41,7 +41,7 @@ class TinderFriendDetailController: UIViewController {
         if let data = NSData(contentsOf: NSURL(string: self.profilePic)! as URL) {
             self.profilePhoto.image = UIImage(data: data as Data)!
         }else{
-            self.profilePhoto.image = UIImage(named: "profile_1")
+            self.profilePhoto.image = UIImage(named: "default")
         }
     }
     
