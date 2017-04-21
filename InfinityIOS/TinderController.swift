@@ -92,8 +92,10 @@ class TinderController: UIViewController {
       self.present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func undoButtonTapped() {
-        kolodaView?.revertAction()
+
+    @IBAction func refresh(_ sender: Any) {
+        print("refresh");
+       kolodaView?.revertAction()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
