@@ -36,7 +36,7 @@
                                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Project Infinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKb-K7-lzX">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friends Infinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKb-K7-lzX">
                                                 <rect key="frame" x="73" y="60" width="176" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="23"/>
@@ -56,7 +56,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s55-Uv-wlA">
                                                 <rect key="frame" x="45" y="234" width="235" height="42"/>
@@ -143,7 +143,7 @@
                                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Project Infinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXh-ej-kqe">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friends Infinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXh-ej-kqe">
                                                 <rect key="frame" x="76.204593030406613" y="60.000000000000455" width="176.00000000000023" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="23"/>
@@ -163,7 +163,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="893-vh-8gW">
                                                 <rect key="frame" x="50" y="303" width="235" height="42"/>
@@ -440,7 +440,7 @@
                                                     <color key="textColor" red="0.35885945431472077" green="0.35885945431472077" blue="0.35885945431472077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_supervisor_account_18pt" translatesAutoresizingMaskIntoConstraints="NO" id="Cme-Am-sx7">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" highlightedImage="star" translatesAutoresizingMaskIntoConstraints="NO" id="Cme-Am-sx7">
                                                     <rect key="frame" x="28.980769230768601" y="20" width="39.999999999999886" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -630,7 +630,7 @@
                                             <segue destination="q29-62-Mbp" kind="showDetail" action="showViewController:sender:" id="eti-ls-TAS"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logomainping" translatesAutoresizingMaskIntoConstraints="NO" id="kqt-c5-1dn">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="T_SS" translatesAutoresizingMaskIntoConstraints="NO" id="kqt-c5-1dn">
                                         <rect key="frame" x="145" y="33" width="70" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -908,7 +908,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdA-4n-nSi">
                                         <rect key="frame" x="221" y="104" width="52" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="edit-1"/>
+                                        <state key="normal" image="edit"/>
                                         <state key="highlighted" image="w_highlighted"/>
                                         <connections>
                                             <action selector="editProfilePhoto:" destination="q29-62-Mbp" eventType="touchUpInside" id="5Sr-uM-UJ2"/>
@@ -969,6 +969,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="T_SS" width="68" height="34"/>
         <image name="T_actv_msg" width="40" height="37"/>
         <image name="T_actv_prfl" width="40" height="33"/>
         <image name="T_flash" width="74" height="67"/>
@@ -976,7 +977,7 @@
         <image name="T_hr" width="388" height="13"/>
         <image name="T_like" width="84" height="76"/>
         <image name="T_msg" width="36" height="30"/>
-        <image name="T_off_sugges" width="69" height="35"/>
+        <image name="T_off_sugges" width="68" height="34"/>
         <image name="T_profile" width="35" height="34"/>
         <image name="T_profile_style" width="391" height="111"/>
         <image name="T_refresh" width="75" height="66"/>
@@ -986,21 +987,19 @@
         <image name="clear" width="59" height="57"/>
         <image name="default" width="146" height="146"/>
         <image name="done" width="63" height="56"/>
-        <image name="edit-1" width="52" height="49"/>
+        <image name="edit" width="52" height="49"/>
         <image name="highlighted" width="92" height="85"/>
-        <image name="ic_supervisor_account_18pt" width="18" height="18"/>
         <image name="icon" width="76" height="76"/>
         <image name="infinity260" width="120" height="120"/>
         <image name="input-outline" width="250" height="44"/>
-        <image name="logomainping" width="68" height="34"/>
         <image name="star" width="60" height="59"/>
         <image name="w_highlighted" width="35" height="31"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5VH-he-NZa"/>
+        <segue reference="7Q0-i4-muw"/>
+        <segue reference="udD-0h-Viy"/>
         <segue reference="eti-ls-TAS"/>
-        <segue reference="K56-tL-WLv"/>
         <segue reference="NNF-WV-cwq"/>
-        <segue reference="ZsI-zl-a1Z"/>
+        <segue reference="tMb-ca-xFY"/>
     </inferredMetricsTieBreakers>
 </document>

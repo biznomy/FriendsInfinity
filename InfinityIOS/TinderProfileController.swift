@@ -98,18 +98,20 @@ class TinderProfileController: UIViewController,UIImagePickerControllerDelegate 
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "logout" {
-            print("logout");
-            FirebaseService.logout();
+          let logout =  FirebaseService.logout();
+            print(logout);
         }
     }
     
     
     func getProfile(){
         httpService.getProfile(id:"me"){ (user,status) -> () in
-            //let user = result as! NSDictionary
+            print(user);
             if let data = NSData(contentsOf: NSURL(string: user["photoURL"] as! String)! as URL) {
+                print(data);
                 self.profilePhoto?.image = UIImage(data: data as Data)
             }else{
+                print("====== ");
                 self.profilePhoto?.image = UIImage(named:"default")
             }
             self.name.text = user["name"] as? String

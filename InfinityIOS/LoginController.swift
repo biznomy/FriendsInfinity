@@ -49,7 +49,7 @@ class LoginController: UIViewController {
             if((user) != nil){
                 self.performSegue(withIdentifier: "gotoHome", sender: nil)
             }else{
-                let alert =  UIAlertController(title: "Error", message: error.debugDescription, preferredStyle: UIAlertControllerStyle.alert)
+                let alert =  UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
                 let CancelAction = UIAlertAction(title: "Cancel", style: .cancel)
                 alert.addAction(CancelAction)
                 self.present(alert, animated: true, completion: nil)
