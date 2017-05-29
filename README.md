@@ -16,7 +16,7 @@
 
   git clone https://github.com/technolabshq/FriendsInfinity.git
   cd FriendsInfinity
-  open 
+  open FriendsInfinity.xcworkspace
   
 ```
 
