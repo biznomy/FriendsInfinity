@@ -16,19 +16,16 @@
 
   git clone https://github.com/technolabshq/FriendsInfinity.git
   cd FriendsInfinity
-  
+  open 
   
 ```
 
-For more documentation [click here react-native-renderer](http://angular.github.io/react-native-renderer)
-
-
 ## FriendsInfinity Screenshot for Overview
 
-<img src="screenshot/android/home.png" width="400"> &nbsp; <img src="screenshot/ios/home.png"  width="400">
+<img src="capture/icon.png" width="400"> &nbsp; <img src="capture/signup.png"  width="400">
 
-<img src="screenshot/android/chest-list.png" width="400" > &nbsp; <img src="screenshot/ios/chest-list.png"  width="400">
+<img src="capture/login.png" width="400" > &nbsp; <img src="capture/home.png"  width="400">
 
-<img src="screenshot/android/chest-detail.png" width="400"> &nbsp; <img src="screenshot/ios/chest-detail.png"  width="400">
+<img src="capture/friends-list.png" width="400"> &nbsp; <img src="capture/icon.png"  width="400">
 
 
