@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D927418B0E3C7E0D9F9ADE9 /* Pods_InfinityIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B22956160B317375506419 /* Pods_InfinityIOS.framework */; };
-		6E156FCE1E8CE16500045EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E156FCD1E8CE16500045EC4 /* GoogleService-Info.plist */; };
 		6E156FD01E8CF62700045EC4 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E156FCF1E8CF62700045EC4 /* SplashController.swift */; };
 		6E156FD41E8D27A200045EC4 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E156FD31E8D27A200045EC4 /* SignupController.swift */; };
 		6E2122551EA4C1E600E40EEC /* MatchesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2122541EA4C1E600E40EEC /* MatchesController.swift */; };
@@ -29,11 +27,14 @@
 		6E7EC42F1E927C7800EED4DA /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7EC42E1E927C7800EED4DA /* OverlayView.xib */; };
 		6EBCA3981E8E7D4800DEC3F1 /* RequestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3971E8E7D4800DEC3F1 /* RequestsController.swift */; };
 		6EEF806C1E9FA3B00029E007 /* TinderFriendDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF806B1E9FA3B00029E007 /* TinderFriendDetailController.swift */; };
+		6EF71E5D1EDBF6FA00DCB091 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EF71E5C1EDBF6FA00DCB091 /* GoogleService-Info.plist */; };
+		A0AD4621A0CB772D94291AB8 /* Pods_FriendsInfinity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DA16E98CC36ED7B035DCBA /* Pods_FriendsInfinity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15B22956160B317375506419 /* Pods_InfinityIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinityIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E156FCD1E8CE16500045EC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2133FF89F8D99FCE8D95879E /* Pods-FriendsInfinity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsInfinity.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsInfinity/Pods-FriendsInfinity.release.xcconfig"; sourceTree = "<group>"; };
+		52DA16E98CC36ED7B035DCBA /* Pods_FriendsInfinity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendsInfinity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E156FCF1E8CF62700045EC4 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		6E156FD31E8D27A200045EC4 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 		6E2122541EA4C1E600E40EEC /* MatchesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesController.swift; sourceTree = "<group>"; };
@@ -42,7 +43,7 @@
 		6E4EE34D1E9CACA40052B97E /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
 		6E4EE3511E9CADED0052B97E /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
 		6E4EE3531E9CAE530052B97E /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
-		6E6AA1581E8CC5B700690C43 /* InfinityIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6AA1581E8CC5B700690C43 /* FriendsInfinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsInfinity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6AA15B1E8CC5B700690C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E6AA1601E8CC5B700690C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E6AA1621E8CC5B800690C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +57,8 @@
 		6E7EC42E1E927C7800EED4DA /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		6EBCA3971E8E7D4800DEC3F1 /* RequestsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsController.swift; sourceTree = "<group>"; };
 		6EEF806B1E9FA3B00029E007 /* TinderFriendDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderFriendDetailController.swift; sourceTree = "<group>"; };
-		D832121015F731F9855D809E /* Pods-InfinityIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS.debug.xcconfig"; sourceTree = "<group>"; };
-		F5558857047D89A56E10B2F3 /* Pods-InfinityIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS.release.xcconfig"; sourceTree = "<group>"; };
+		6EF71E5C1EDBF6FA00DCB091 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE945750540E0718C80D81B0 /* Pods-FriendsInfinity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsInfinity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsInfinity/Pods-FriendsInfinity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D927418B0E3C7E0D9F9ADE9 /* Pods_InfinityIOS.framework in Frameworks */,
+				A0AD4621A0CB772D94291AB8 /* Pods_FriendsInfinity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +76,7 @@
 		6E6AA14F1E8CC5B700690C43 = {
 			isa = PBXGroup;
 			children = (
-				6E6AA15A1E8CC5B700690C43 /* InfinityIOS */,
+				6E6AA15A1E8CC5B700690C43 /* FriendsInfinity */,
 				6E6AA1591E8CC5B700690C43 /* Products */,
 				B8F0C23102F6528F0F7D7EE3 /* Pods */,
 				94B5349C7D0DB3340F9B9405 /* Frameworks */,
@@ -85,20 +86,20 @@
 		6E6AA1591E8CC5B700690C43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E6AA1581E8CC5B700690C43 /* InfinityIOS.app */,
+				6E6AA1581E8CC5B700690C43 /* FriendsInfinity.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E6AA15A1E8CC5B700690C43 /* InfinityIOS */ = {
+		6E6AA15A1E8CC5B700690C43 /* FriendsInfinity */ = {
 			isa = PBXGroup;
 			children = (
+				6EF71E5C1EDBF6FA00DCB091 /* GoogleService-Info.plist */,
 				6E6AA15B1E8CC5B700690C43 /* AppDelegate.swift */,
 				6E6AA15F1E8CC5B700690C43 /* Main.storyboard */,
 				6E6AA1621E8CC5B800690C43 /* Assets.xcassets */,
 				6E6AA1641E8CC5B800690C43 /* LaunchScreen.storyboard */,
 				6E6AA1671E8CC5B800690C43 /* Info.plist */,
-				6E156FCD1E8CE16500045EC4 /* GoogleService-Info.plist */,
 				6E156FCF1E8CF62700045EC4 /* SplashController.swift */,
 				6E156FD31E8D27A200045EC4 /* SignupController.swift */,
 				6EBCA3971E8E7D4800DEC3F1 /* RequestsController.swift */,
@@ -116,13 +117,15 @@
 				6EEF806B1E9FA3B00029E007 /* TinderFriendDetailController.swift */,
 				6E2122541EA4C1E600E40EEC /* MatchesController.swift */,
 			);
-			path = InfinityIOS;
+			path = FriendsInfinity;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		94B5349C7D0DB3340F9B9405 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				15B22956160B317375506419 /* Pods_InfinityIOS.framework */,
+				52DA16E98CC36ED7B035DCBA /* Pods_FriendsInfinity.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,8 +133,8 @@
 		B8F0C23102F6528F0F7D7EE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D832121015F731F9855D809E /* Pods-InfinityIOS.debug.xcconfig */,
-				F5558857047D89A56E10B2F3 /* Pods-InfinityIOS.release.xcconfig */,
+				BE945750540E0718C80D81B0 /* Pods-FriendsInfinity.debug.xcconfig */,
+				2133FF89F8D99FCE8D95879E /* Pods-FriendsInfinity.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -139,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E6AA1571E8CC5B700690C43 /* InfinityIOS */ = {
+		6E6AA1571E8CC5B700690C43 /* FriendsInfinity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E6AA16A1E8CC5B800690C43 /* Build configuration list for PBXNativeTarget "InfinityIOS" */;
+			buildConfigurationList = 6E6AA16A1E8CC5B800690C43 /* Build configuration list for PBXNativeTarget "FriendsInfinity" */;
 			buildPhases = (
 				F9CB489F3496D2B19F2AA900 /* [CP] Check Pods Manifest.lock */,
 				6E6AA1541E8CC5B700690C43 /* Sources */,
@@ -154,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = InfinityIOS;
+			name = FriendsInfinity;
 			productName = InfinityIOS;
-			productReference = 6E6AA1581E8CC5B700690C43 /* InfinityIOS.app */;
+			productReference = 6E6AA1581E8CC5B700690C43 /* FriendsInfinity.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E6AA1531E8CC5B700690C43 /* Build configuration list for PBXProject "InfinityIOS" */;
+			buildConfigurationList = 6E6AA1531E8CC5B700690C43 /* Build configuration list for PBXProject "FriendsInfinity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -189,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E6AA1571E8CC5B700690C43 /* InfinityIOS */,
+				6E6AA1571E8CC5B700690C43 /* FriendsInfinity */,
 			);
 		};
 /* End PBXProject section */
@@ -200,8 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E6AA1661E8CC5B800690C43 /* LaunchScreen.storyboard in Resources */,
-				6E156FCE1E8CE16500045EC4 /* GoogleService-Info.plist in Resources */,
 				6E7EC42F1E927C7800EED4DA /* OverlayView.xib in Resources */,
+				6EF71E5D1EDBF6FA00DCB091 /* GoogleService-Info.plist in Resources */,
 				6E6AA1631E8CC5B800690C43 /* Assets.xcassets in Resources */,
 				6E6AA1611E8CC5B700690C43 /* Main.storyboard in Resources */,
 			);
@@ -222,7 +225,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendsInfinity/Pods-FriendsInfinity-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		07A9B51D5CEBD7E7E934A82F /* [CP] Embed Pods Frameworks */ = {
@@ -237,7 +240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfinityIOS/Pods-InfinityIOS-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendsInfinity/Pods-FriendsInfinity-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F9CB489F3496D2B19F2AA900 /* [CP] Check Pods Manifest.lock */ = {
@@ -398,12 +401,12 @@
 		};
 		6E6AA16B1E8CC5B800690C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D832121015F731F9855D809E /* Pods-InfinityIOS.debug.xcconfig */;
+			baseConfigurationReference = BE945750540E0718C80D81B0 /* Pods-FriendsInfinity.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = InfinityIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FriendsInfinity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technolabs.infinityios.InfinityIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,12 +417,12 @@
 		};
 		6E6AA16C1E8CC5B800690C43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5558857047D89A56E10B2F3 /* Pods-InfinityIOS.release.xcconfig */;
+			baseConfigurationReference = 2133FF89F8D99FCE8D95879E /* Pods-FriendsInfinity.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = InfinityIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FriendsInfinity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technolabs.infinityios.InfinityIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E6AA1531E8CC5B700690C43 /* Build configuration list for PBXProject "InfinityIOS" */ = {
+		6E6AA1531E8CC5B700690C43 /* Build configuration list for PBXProject "FriendsInfinity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E6AA1681E8CC5B800690C43 /* Debug */,
@@ -439,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E6AA16A1E8CC5B800690C43 /* Build configuration list for PBXNativeTarget "InfinityIOS" */ = {
+		6E6AA16A1E8CC5B800690C43 /* Build configuration list for PBXNativeTarget "FriendsInfinity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E6AA16B1E8CC5B800690C43 /* Debug */,

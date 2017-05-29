@@ -1,6 +1,6 @@
 use_frameworks!
 
-target ‘InfinityIOS’ do
+target ‘FriendsInfinity’ do
   pod "Koloda", :path => "./Koloda"
   pod 'Alamofire', '~> 4.2.0'
   pod 'SwiftLoader'
