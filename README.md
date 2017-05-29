@@ -23,12 +23,15 @@
 
 ## FriendsInfinity Screenshot for Overview
 
-<img src="capture/icon.png" width="260"> &nbsp; <img src="capture/signup.png" width="260">
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="capture/icon.png" width="260"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="capture/signup.png" width="260">
+ 
 
-<img src="capture/login.png" width="260"> &nbsp; <img src="capture/splash.png" width="260">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="capture/login.png" width="260"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="capture/splash.png" width="260">
 
-<img src="capture/home.png" width="260" width="260"> &nbsp; <img src="capture/user_detail.png" width="260">
 
-<img src="capture/profile.png" width="260" > &nbsp; <img src="capture/friends_list.png" width="260">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="capture/home.png" width="260" width="260">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="capture/user_detail.png" width="260">
+
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="capture/profile.png" width="260" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="capture/friends_list.png" width="260">
 
 
