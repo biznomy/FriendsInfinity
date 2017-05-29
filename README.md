@@ -26,6 +26,6 @@
 
 <img src="capture/login.png" width="400" > &nbsp; <img src="capture/home.png"  width="400">
 
-<img src="capture/friends-list.png" width="400"> &nbsp; <img src="capture/icon.png"  width="400">
+<img src="capture/user_detail.png" width="400"> &nbsp; <img src="capture/friends_list.png"  width="400">
 
 
